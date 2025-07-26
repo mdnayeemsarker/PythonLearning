@@ -70,3 +70,8 @@ print(myName1.isdecimal())
 print("\nisdigit")
 print("125478".isdigit())
 print(myName1.isdigit())
+
+#isidentifier = Returns True if the string is an identifier
+print("\nisidentifier")
+print("125478".isidentifier())
+print(myName1.isidentifier())
