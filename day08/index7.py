@@ -75,3 +75,8 @@ print(myName1.isdigit())
 print("\nisidentifier")
 print("125478".isidentifier())
 print(myName1.isidentifier())
+
+#islower = Returns True if the string is an identifier
+print("\nislower")
+print("asjdhfbas".islower())
+print(myName1.islower())
