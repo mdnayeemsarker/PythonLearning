@@ -119,3 +119,9 @@ print(myName1.ljust(50), "is my favorite fruit.")
 print("\nljust")
 print(myName1)
 print(myName1.lower())
+
+#lstrip = Returns a left trim version of the string
+print("\nlstrip")
+txt = "           banana         "
+x = txt.lstrip()
+print("of all fruits", x, "is my favorite")
