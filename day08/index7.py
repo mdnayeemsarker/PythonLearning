@@ -41,3 +41,6 @@ print(txt.format(price = 49.5654))
 
 #format_map = Formats specified values in a string
 print(myName.format_map(1))
+
+#index = look like find() Searches the string for a specified value and returns the position of where it was found
+print(myName.index("NAYEEM"))
