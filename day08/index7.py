@@ -105,3 +105,8 @@ print(myName1.istitle())
 print("\nisupper")
 print("MD NAYEEM SARKER".isupper())
 print(myName1.isupper())
+
+#join = Joins the elements of an iterable to the end of the string
+print("\nisupper")
+x = "#".join(("MD ", "NAYEEM ", "SARKER"))
+print(x)
