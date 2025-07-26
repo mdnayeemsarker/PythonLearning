@@ -142,3 +142,7 @@ print(myName.replace("NAYEEM", "asha"))
 #rfind = Searches the string for a specified value and returns the last position of where it was found
 print("\nrfind")
 print(myName.rfind("NAYEEM"))
+
+#rindex = Searches the string for a specified value and returns the last position of where it was found
+print("\nrindex")
+print(myName.rindex("NAYEEM"))
