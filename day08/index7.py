@@ -191,3 +191,7 @@ print("of all fruits", x, "is my favorite")
 #swapcase = Swaps cases, lower case becomes upper case and vice versa
 print("\nswapcase")
 print(myName3.swapcase())
+
+#title = Converts the first character of each word to upper case
+print("\ntitle")
+print(myName3.title())
