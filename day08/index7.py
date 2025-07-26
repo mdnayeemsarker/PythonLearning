@@ -131,6 +131,10 @@ print("\nmaketrans")
 mynameTable = str.maketrans("S", "M")
 print(myName.translate(mynameTable))
 
-#partition = Returns a translation table to be used in translations
+#partition = Returns a tuple where the string is parted into three parts
 print("\npartition")
 print(myName.partition("NAYEEM"))
+
+#replace = Returns a string where a specified value is replaced with a specified value
+print("\nreplace")
+print(myName.replace("NAYEEM", "asha"))
