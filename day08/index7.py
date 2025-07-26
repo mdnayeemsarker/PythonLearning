@@ -85,3 +85,8 @@ print(myName1.islower())
 print("\nisnumeric")
 print("145554".isnumeric())
 print(myName1.isnumeric())
+
+#isprintable = 	Returns True if all characters in the string are printable
+print("\nisprintable")
+print("Hello!\nAre you #1?".isprintable())
+print(myName1.isprintable())
