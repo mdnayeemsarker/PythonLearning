@@ -95,3 +95,8 @@ print(myName1.isprintable())
 print("\nisspace")
 print("   ".isspace())
 print(myName1.isspace())
+
+#istitle = 	Returns True if the string follows the rules of a title
+print("\nistitle")
+print("   ".istitle())
+print(myName1.istitle())
