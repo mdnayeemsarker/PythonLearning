@@ -110,3 +110,7 @@ print(myName1.isupper())
 print("\nisupper")
 x = "#".join(("MD ", "NAYEEM ", "SARKER"))
 print(x)
+
+#ljust = Joins the elements of an iterable to the end of the string
+print("\nljust")
+print(myName1.ljust(50), "is my favorite fruit.")
