@@ -19,3 +19,7 @@ print(myName)
 #Tab
 myName = "My name is MD NAYEEM SARKER, \tI\'m 130 years 'old'"
 print(myName)
+
+#Backspace
+myName = "My name is MD NAYEEM SARKER,\b \b I\'m 130 years 'old'"
+print(myName)
