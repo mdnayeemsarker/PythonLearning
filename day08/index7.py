@@ -34,3 +34,7 @@ print(txt.expandtabs(10))
 
 #find()	Searches the string for a specified value and returns the position of where it was found
 print(myName.find("NAYEEM"))
+
+#Formats specified values in a string
+txt = "For only {price:.2f} dollars!"
+print(txt.format(price = 49.5654))
