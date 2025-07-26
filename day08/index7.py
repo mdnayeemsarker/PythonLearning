@@ -76,7 +76,12 @@ print("\nisidentifier")
 print("125478".isidentifier())
 print(myName1.isidentifier())
 
-#islower = Returns True if the string is an identifier
+#islower = Returns True if all characters in the string are lower case
 print("\nislower")
 print("asjdhfbas".islower())
 print(myName1.islower())
+
+#isnumeric = Returns True if all characters in the string are numeric
+print("\nisnumeric")
+print("145554".isnumeric())
+print(myName1.isnumeric())
