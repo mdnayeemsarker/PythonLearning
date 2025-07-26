@@ -31,3 +31,6 @@ print(txt.expandtabs())
 print(txt.expandtabs(2))
 print(txt.expandtabs(4))
 print(txt.expandtabs(10))
+
+#find()	Searches the string for a specified value and returns the position of where it was found
+print(myName.find("NAYEEM"))
