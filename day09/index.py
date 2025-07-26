@@ -50,3 +50,11 @@ class myClass():
     
 myObject = myClass()
 print(bool(myObject))
+
+#Functions can Return a Boolean
+print("\nFunctions can Return a Boolean")
+
+def myFunction():
+    return True
+
+print(myFunction())
