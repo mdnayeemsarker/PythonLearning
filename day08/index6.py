@@ -23,3 +23,7 @@ print(myName)
 #Backspace
 myName = "My name is MD NAYEEM SARKER,\b \b I\'m 130 years 'old'"
 print(myName)
+
+#Octal value
+txt = "\110\145\154\154\157"
+print(txt)
