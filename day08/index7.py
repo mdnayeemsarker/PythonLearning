@@ -159,3 +159,9 @@ print(myName.rpartition("NAYEEM"))
 print("\nrsplit")
 myName2 = "apple, banana, cherry"
 print(myName2.rsplit(", " ))
+
+#rstrip = Returns a right trim version of the string
+print("\nrstrip")
+txt = "       banana                          "
+x = txt.rstrip()
+print("of all fruits", x, "is my favorite")
