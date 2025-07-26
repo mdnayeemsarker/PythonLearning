@@ -22,3 +22,12 @@ print(myName.encode())
 #endswith = Returns true if the string ends with the specified value
 print(myName.endswith("."))
 print(myName.endswith("?"))
+
+#expandtabs = Sets the tab size of the string
+txt = "H\te\tl\tl\to"
+
+print(txt)
+print(txt.expandtabs())
+print(txt.expandtabs(2))
+print(txt.expandtabs(4))
+print(txt.expandtabs(10))
