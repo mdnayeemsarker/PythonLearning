@@ -125,3 +125,8 @@ print("\nlstrip")
 txt = "           banana         "
 x = txt.lstrip()
 print("of all fruits", x, "is my favorite")
+
+#maketrans = Returns a translation table to be used in translations
+print("\nmaketrans")
+mynameTable = str.maketrans("S", "M")
+print(myName.translate(mynameTable))
