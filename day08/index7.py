@@ -1,6 +1,6 @@
 # Python - String Methods
 
-myName = "my name is MD NAYEEM SARKER my my sdfg"
+myName = "my name is MD NAYEEM SARKER my my Ståle"
 
 #capitalize = Converts the first character to upper case
 print(myName.capitalize())
@@ -15,3 +15,6 @@ print(x)
 
 #count = Returns the number of times a specified value occurs in a string
 print(myName.count("my"))
+
+#encode = Returns an encoded version of the string
+print(myName.encode())
