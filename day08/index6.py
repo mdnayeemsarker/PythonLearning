@@ -11,3 +11,7 @@ print(backslash)
 #New Line
 myName = "My name is MD NAYEEM SARKER, \nI\'m 130 years 'old'"
 print(myName)
+
+#Carriage Return
+myName = "My name is MD NAYEEM SARKER, \rI\'m 130 years 'old'"
+print(myName)
