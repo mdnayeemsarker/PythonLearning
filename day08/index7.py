@@ -114,3 +114,8 @@ print(x)
 #ljust = Returns a left justified version of the string
 print("\nljust")
 print(myName1.ljust(50), "is my favorite fruit.")
+
+#lower = Converts a string into lower case
+print("\nljust")
+print(myName1)
+print(myName1.lower())
