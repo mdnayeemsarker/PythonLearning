@@ -63,3 +63,10 @@ if(myFunction()):
     print("Yes")
 else:
     print("No")
+
+#Python has many built-in functions that return a boolean value
+print("\nisinstance")
+age = 200
+age2 = "200"
+print(isinstance(age, int))
+print(isinstance(age2, str))
