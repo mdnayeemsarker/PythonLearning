@@ -151,6 +151,11 @@ print(myName.rindex("NAYEEM"))
 print("\nrjust")
 print(myName.rjust(50), "this is rjust")
 
-#rpartition = Returns a right justified version of the string
+#rpartition = Returns a tuple where the string is parted into three parts
 print("\nrpartition")
 print(myName.rpartition("NAYEEM"))
+
+#rsplit = Splits the string at the specified separator, and returns a list
+print("\nrsplit")
+myName2 = "apple, banana, cherry"
+print(myName2.rsplit(", " ))
