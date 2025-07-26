@@ -201,3 +201,7 @@ print("\ntranslate")
 mydict = {83:  80}
 txt = "Hello Sam!"
 print(txt.translate(mydict))
+
+#upper = Returns a translated string
+print("\nupper")
+print(myName1.upper())
