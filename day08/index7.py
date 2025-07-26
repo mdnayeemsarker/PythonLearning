@@ -44,3 +44,7 @@ print(myName.format_map(1))
 
 #index = look like find() Searches the string for a specified value and returns the position of where it was found
 print(myName.index("NAYEEM"))
+
+#isalnum = Returns True if all characters in the string are alphanumeric
+print(myName.isalnum())
+print("125478".isalnum())
