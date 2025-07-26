@@ -138,3 +138,7 @@ print(myName.partition("NAYEEM"))
 #replace = Returns a string where a specified value is replaced with a specified value
 print("\nreplace")
 print(myName.replace("NAYEEM", "asha"))
+
+#rfind = Searches the string for a specified value and returns the last position of where it was found
+print("\nrfind")
+print(myName.rfind("NAYEEM"))
