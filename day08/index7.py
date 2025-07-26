@@ -146,3 +146,7 @@ print(myName.rfind("NAYEEM"))
 #rindex = Searches the string for a specified value and returns the last position of where it was found
 print("\nrindex")
 print(myName.rindex("NAYEEM"))
+
+#rjust = Returns a right justified version of the string
+print("\nrjust")
+print(myName.rjust(50), "this is rjust")
