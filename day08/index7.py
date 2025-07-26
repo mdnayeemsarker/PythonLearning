@@ -55,5 +55,11 @@ print("125478".isalpha())
 print(myName1.isalpha())
 
 #isascii = Returns True if all characters in the string are ascii characters
+print("\n")
 print("125478".isascii())
 print(myName1.isascii())
+
+#isdecimal = Returns True if all characters in the string are decimals
+print("\n")
+print("125478".isdecimal())
+print(myName1.isdecimal())
