@@ -1,0 +1,6 @@
+# Python - String Methods
+
+myName = "my name is MD NAYEEM SARKER"
+
+#capitalize = Converts the first character to upper case
+print(myName.capitalize())
