@@ -150,3 +150,7 @@ print(myName.rindex("NAYEEM"))
 #rjust = Returns a right justified version of the string
 print("\nrjust")
 print(myName.rjust(50), "this is rjust")
+
+#rpartition = Returns a right justified version of the string
+print("\nrpartition")
+print(myName.rpartition("NAYEEM"))
