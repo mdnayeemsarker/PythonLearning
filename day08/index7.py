@@ -187,3 +187,7 @@ print("\nstrip")
 txt = "     banana                 "
 x = txt.strip()
 print("of all fruits", x, "is my favorite")
+
+#swapcase = Swaps cases, lower case becomes upper case and vice versa
+print("\nswapcase")
+print(myName3.swapcase())
