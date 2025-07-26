@@ -48,3 +48,8 @@ print(myName.index("NAYEEM"))
 #isalnum = Returns True if all characters in the string are alphanumeric
 print(myName.isalnum())
 print("125478".isalnum())
+
+#isalpha = Returns True if all characters in the string are in the alphabet
+myName1 = "mynameisMdNayeemSarker"
+print("125478".isalpha())
+print(myName1.isalpha())
