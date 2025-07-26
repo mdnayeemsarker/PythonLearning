@@ -6,3 +6,11 @@ print('Nayeem') # double or single quote are represent the same
 #Quotes Inside Quotes
 print("My name is 'Nayeem'")
 print('My name is "Nayeem"')
+
+#Assign String to a Variable
+nameOne = "My name is 'Nayeem'"
+nameTwo = 'My name is "Nayeem"'
+
+print(nameOne)
+print(nameTwo)
+
