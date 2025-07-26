@@ -18,7 +18,6 @@ else:
 
 #Evaluate Values and Variables
 print("\n")
-
 print(bool("Nayeem"))
 print(bool(25))
 
@@ -29,8 +28,18 @@ y = 15
 print(bool(x))
 print(bool(y))
 
-
 #Most Values are True
-bool("abc")
-bool(123)
-bool(["apple", "cherry", "banana"])
+print("\nMost Values are true")
+print(bool("abc"))
+print(bool(123))
+print(bool(["apple", "cherry", "banana"]))
+
+#Some Values are False
+print("\nSome Values are False")
+print(bool(False))
+print(bool(None))
+print(bool(0))
+print(bool(""))
+print(bool(()))
+print(bool([]))
+print(bool({}))
