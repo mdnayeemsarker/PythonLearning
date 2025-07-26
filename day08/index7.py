@@ -98,5 +98,5 @@ print(myName1.isspace())
 
 #istitle = 	Returns True if the string follows the rules of a title
 print("\nistitle")
-print("   ".istitle())
+print("Hello, And Welcome To My World!".istitle())
 print(myName1.istitle())
