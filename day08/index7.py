@@ -181,3 +181,9 @@ print("\nstartswith")
 myName3 = "Thank you for the music\nWelcome to the jungle"
 print(myName3.startswith("Thank"))
 print(myName3.startswith("You"))
+
+#strip = Returns a trimmed version of the string
+print("\nstrip")
+txt = "     banana                 "
+x = txt.strip()
+print("of all fruits", x, "is my favorite")
