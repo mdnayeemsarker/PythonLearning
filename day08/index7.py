@@ -38,3 +38,6 @@ print(myName.find("NAYEEM"))
 #Formats specified values in a string
 txt = "For only {price:.2f} dollars!"
 print(txt.format(price = 49.5654))
+
+#format_map = Formats specified values in a string
+print(myName.format_map(1))
