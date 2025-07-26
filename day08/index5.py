@@ -6,3 +6,7 @@ aboutMe = myName + myAge
 
 #String Format
 print(aboutMe)
+
+#F-String
+updateAbout = f"Update with f-String: MD NAYEEM SARKER & Age is {myAge}"
+print(updateAbout)
