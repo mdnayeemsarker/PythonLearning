@@ -4,3 +4,6 @@ myName = "my name is MD NAYEEM SARKER"
 
 #capitalize = Converts the first character to upper case
 print(myName.capitalize())
+
+#casefold = Converts string into lower case
+print(myName.casefold())
