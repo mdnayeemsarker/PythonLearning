@@ -90,3 +90,8 @@ print(myName1.isnumeric())
 print("\nisprintable")
 print("Hello!\nAre you #1?".isprintable())
 print(myName1.isprintable())
+
+#isspace = 	Returns True if all characters in the string are whitespaces
+print("\nisspace")
+print("   ".isspace())
+print(myName1.isspace())
