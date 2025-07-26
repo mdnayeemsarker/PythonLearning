@@ -202,6 +202,10 @@ mydict = {83:  80}
 txt = "Hello Sam!"
 print(txt.translate(mydict))
 
-#upper = Returns a translated string
+#upper = Converts a string into upper case
 print("\nupper")
 print(myName1.upper())
+
+#zfill = 	Fills the string with a specified number of 0 values at the beginning
+print("\nzfill")
+print("40".zfill(5))
