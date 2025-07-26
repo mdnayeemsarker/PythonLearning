@@ -43,3 +43,10 @@ print(bool(""))
 print(bool(()))
 print(bool([]))
 print(bool({}))
+
+class myClass():
+    def __len__(self):
+        return 0
+    
+myObject = myClass()
+print(bool(myObject))
