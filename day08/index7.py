@@ -100,3 +100,8 @@ print(myName1.isspace())
 print("\nistitle")
 print("Hello, And Welcome To My World!".istitle())
 print(myName1.istitle())
+
+#isupper = 	Returns True if all characters in the string are upper case
+print("\nisupper")
+print("MD NAYEEM SARKER".isupper())
+print(myName1.isupper())
