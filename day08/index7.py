@@ -170,3 +170,8 @@ print("of all fruits", x, "is my favorite")
 print("\nsplit")
 myName3 = "apple, banana, cherry"
 print(myName3.split())
+
+#splitlines = Splits the string at line breaks and returns a list
+print("\nsplitlines")
+myName3 = "Thank you for the music\nWelcome to the jungle"
+print(myName3.splitlines())
