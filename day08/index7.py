@@ -46,20 +46,27 @@ print(myName.format_map(1))
 print(myName.index("NAYEEM"))
 
 #isalnum = Returns True if all characters in the string are alphanumeric
+print("\nisalnum")
 print(myName.isalnum())
 print("125478".isalnum())
 
 #isalpha = Returns True if all characters in the string are in the alphabet
 myName1 = "mynameisMdNayeemSarker"
+print("\nisalpha")
 print("125478".isalpha())
 print(myName1.isalpha())
 
 #isascii = Returns True if all characters in the string are ascii characters
-print("\n")
+print("\nisascii")
 print("125478".isascii())
 print(myName1.isascii())
 
 #isdecimal = Returns True if all characters in the string are decimals
-print("\n")
+print("\nisdecimal")
 print("125478".isdecimal())
 print(myName1.isdecimal())
+
+#isdigit = Returns True if all characters in the string are digits
+print("\nisdigit")
+print("125478".isdigit())
+print(myName1.isdigit())
