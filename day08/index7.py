@@ -1,6 +1,6 @@
 # Python - String Methods
 
-myName = "my name is MD NAYEEM SARKER my my Ståle"
+myName = "my name is MD NAYEEM SARKER my my Ståle."
 
 #capitalize = Converts the first character to upper case
 print(myName.capitalize())
@@ -18,3 +18,7 @@ print(myName.count("my"))
 
 #encode = Returns an encoded version of the string
 print(myName.encode())
+
+#endswith = Returns true if the string ends with the specified value
+print(myName.endswith("."))
+print(myName.endswith("?"))
