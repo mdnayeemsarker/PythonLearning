@@ -175,3 +175,9 @@ print(myName3.split())
 print("\nsplitlines")
 myName3 = "Thank you for the music\nWelcome to the jungle"
 print(myName3.splitlines())
+
+#startswith = Returns true if the string starts with the specified value
+print("\nstartswith")
+myName3 = "Thank you for the music\nWelcome to the jungle"
+print(myName3.startswith("Thank"))
+print(myName3.startswith("You"))
