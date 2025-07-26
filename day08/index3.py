@@ -11,3 +11,6 @@ print(aboutMe2.lower())
 
 #remove whitespace
 print(aboutMe.strip()) 
+
+#Replace String
+print(aboutMe.replace("md nayeem sarker", "MD NAYEEM SARKER"))
