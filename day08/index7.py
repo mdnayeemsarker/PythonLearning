@@ -53,3 +53,7 @@ print("125478".isalnum())
 myName1 = "mynameisMdNayeemSarker"
 print("125478".isalpha())
 print(myName1.isalpha())
+
+#isascii = Returns True if all characters in the string are ascii characters
+print("125478".isascii())
+print(myName1.isascii())
