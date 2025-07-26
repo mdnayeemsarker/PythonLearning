@@ -195,3 +195,9 @@ print(myName3.swapcase())
 #title = Converts the first character of each word to upper case
 print("\ntitle")
 print(myName3.title())
+
+#translate = Returns a translated string
+print("\ntranslate")
+mydict = {83:  80}
+txt = "Hello Sam!"
+print(txt.translate(mydict))
