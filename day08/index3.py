@@ -10,4 +10,4 @@ print(aboutMe.upper())
 print(aboutMe2.lower())
 
 #remove whitespace
-print(aboutMe.strip())
+print(aboutMe.strip()) 
