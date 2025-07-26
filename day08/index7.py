@@ -130,3 +130,7 @@ print("of all fruits", x, "is my favorite")
 print("\nmaketrans")
 mynameTable = str.maketrans("S", "M")
 print(myName.translate(mynameTable))
+
+#partition = Returns a translation table to be used in translations
+print("\npartition")
+print(myName.partition("NAYEEM"))
