@@ -8,3 +8,5 @@ def main():
     print(globaleVar)
 
 main()
+
+print(globaleVar)
