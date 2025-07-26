@@ -7,3 +7,7 @@ print(myName)
 #Backslash
 backslash = "This will insert one \\ (backslash)."
 print(backslash)
+
+#New Line
+myName = "My name is MD NAYEEM SARKER, \nI\'m 130 years 'old'"
+print(myName)
