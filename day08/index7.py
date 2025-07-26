@@ -165,3 +165,8 @@ print("\nrstrip")
 txt = "       banana                          "
 x = txt.rstrip()
 print("of all fruits", x, "is my favorite")
+
+#split = Splits the string at the specified separator, and returns a list
+print("\nsplit")
+myName3 = "apple, banana, cherry"
+print(myName3.split())
