@@ -1,8 +1,8 @@
 # float number
 
-a = 1.10
-b = 1.0
-c = 56.65
+a = 1E10
+b = 1e50
+c = 56.6e5
 
 print(a)
 print(type(a))
