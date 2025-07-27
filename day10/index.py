@@ -101,3 +101,21 @@ print("\nIdentity Operators")
 
 print(a is b)
 print(a is not b)
+
+
+#Membership Operators
+print("\nMembership Operators")
+
+print(a in ("25","26"))
+print(a not in ("25", "27"))
+
+
+#Bitwise Operators
+print("\nBitwise Operators")
+
+print(6 & 3)
+print(6 | 3)
+print(6 ^ 3)
+print(~3)
+print(6 << 3)
+print(6 >> 3)
