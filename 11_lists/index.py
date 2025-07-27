@@ -30,3 +30,9 @@ print(type(boollist))
 multilist = ["nayeem", 29, 129943, True, 150735, 1117518166, True]
 
 print(multilist)
+
+
+#The list Constructor
+print("\nThe list() Constructor")
+listconstructor = list(("Html", "Css", "Java", "Python"))
+print(listconstructor)
