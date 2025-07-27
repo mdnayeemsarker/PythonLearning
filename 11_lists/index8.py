@@ -16,7 +16,7 @@ print(mynlist)
 
 #Sort Descending
 print("\nSort Descending")
-myadlist = ["apple", "banana", "cherry", "1apple", "2banana", "3cherry"]
+myadlist = ["apple", "Banana", "Cherry", "1apple", "2banana", "3cherry"]
 myadlist.sort(reverse=True)
 print(myadlist)
 
@@ -34,3 +34,10 @@ def myfunc(n):
 myndlist = [100, 50, 65, 82, 23]
 myndlist.sort(key = myfunc)
 print(myndlist)
+
+
+#Case Insensitive Sort
+print("\nCase Insensitive Sort")
+
+myadlist.sort(key = str.lower)
+print(myadlist)
