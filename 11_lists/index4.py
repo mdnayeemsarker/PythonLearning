@@ -6,3 +6,9 @@ print("\nAppend Items")
 mylist = ["apple", "banana", "cherry"]
 mylist.append("orange")
 print(mylist)
+
+
+#Insert Items
+print("\nInsert Items")
+mylist.insert(1, "orange insert")
+print(mylist)
