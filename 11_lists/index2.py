@@ -16,3 +16,5 @@ print(mylist[-2]) # negative indexing means right to left access
 #Range of Indexes
 print("\nRange of Indexes")
 print(mylist[2:5]) 
+print(mylist[:5]) 
+print(mylist[2:]) 
