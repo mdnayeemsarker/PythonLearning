@@ -25,3 +25,8 @@ print(boollist)
 print(type(stringlist))
 print(type(intlist))
 print(type(boollist))
+
+#A list with strings, integers and boolean values:
+multilist = ["nayeem", 29, 129943, True, 150735, 1117518166, True]
+
+print(multilist)
