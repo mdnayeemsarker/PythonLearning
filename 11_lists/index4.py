@@ -12,3 +12,9 @@ print(mylist)
 print("\nInsert Items")
 mylist.insert(1, "orange insert")
 print(mylist)
+
+
+#Extend List
+tropical = ["mango", "pineapple", "papaya"]
+mylist.extend(tropical)
+print(mylist)
