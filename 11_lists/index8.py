@@ -12,3 +12,10 @@ print("\nSort the list numerically")
 mynlist = [100, 50, 65, 82, 23]
 mynlist.sort()
 print(mynlist)
+
+
+#Sort Descending
+print("\nSort Descending")
+myalist = ["apple", "banana", "cherry", "1apple", "2banana", "3cherry"]
+myalist.sort(reverse=True)
+print(myalist)
