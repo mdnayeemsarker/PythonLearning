@@ -19,3 +19,11 @@ del mylist[0]
 print(mylist)
 
 del mylist
+
+
+#clear list
+print("\nClear List")
+mylist = ["apple", "banana", "cherry"]
+print(mylist)
+mylist.clear()
+print(mylist)
