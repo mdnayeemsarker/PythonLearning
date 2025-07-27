@@ -82,3 +82,15 @@ print(i > j)
 print(i < j)
 print(i >= j)
 print(i <= j)
+
+
+#Logical Operators
+print("\nLogical Operators")
+print(i > j and i < j)
+print(i < j and i > j)
+
+print(i > j or i < j)
+print(i < j or i > j)
+
+print(not(i > j and i < j))
+print(not(i < j and i > j))
