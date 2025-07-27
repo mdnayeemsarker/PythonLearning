@@ -17,3 +17,5 @@ print(mylist)
 #The del keyword also removes the specified index:
 del mylist[0]
 print(mylist)
+
+del mylist
