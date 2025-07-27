@@ -21,3 +21,8 @@ i = 0
 while i < len(mywlist):
   print(mywlist[i])
   i = i + 1
+
+
+#Looping Using List Comprehension
+print("\nLooping Using List Comprehension")
+[print(x) for x in mywlist]
