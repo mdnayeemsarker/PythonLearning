@@ -68,3 +68,17 @@ c <<= a
 print(c)
 
 print(c := a)
+
+
+#Comparison Operators
+print("\nComparison Operators")
+
+i = 25
+j = 22
+
+print(i == j)
+print(i != j)
+print(i > j)
+print(i < j)
+print(i >= j)
+print(i <= j)
