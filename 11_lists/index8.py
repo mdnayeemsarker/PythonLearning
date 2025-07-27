@@ -41,3 +41,10 @@ print("\nCase Insensitive Sort")
 
 myadlist.sort(key = str.lower)
 print(myadlist)
+
+
+#Reverse Order
+print("\nReverse Order")
+
+myadlist.reverse()
+print(myadlist)
