@@ -6,3 +6,8 @@ print("\nList")
 tasklist = ["php", "python", "css", "html"]
 print(tasklist) #full list
 print(tasklist[2]) #specific item
+
+
+#List Length
+print("\nList Length")
+print(len(tasklist))
