@@ -94,3 +94,10 @@ print(i < j or i > j)
 
 print(not(i > j and i < j))
 print(not(i < j and i > j))
+
+
+#Identity Operators
+print("\nIdentity Operators")
+
+print(a is b)
+print(a is not b)
