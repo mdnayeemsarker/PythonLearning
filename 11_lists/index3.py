@@ -16,3 +16,9 @@ print(thislist)
 thislist = ["apple", "banana", "cherry"]
 thislist[1:2] = ["blackcurrant", "watermelon"]
 print(thislist)
+
+
+#Insert Items
+print("\nInsert Items")
+thislist.insert(2, "watermelon")
+print(thislist)
