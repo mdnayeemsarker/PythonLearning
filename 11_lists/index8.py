@@ -23,3 +23,14 @@ print(myadlist)
 myndlist = [100, 50, 65, 82, 23]
 myndlist.sort(reverse=True)
 print(myndlist)
+
+
+#Customize Sort Function
+print("\nCustomize Sort Function")
+
+def myfunc(n):
+    return abs(n - 50)
+
+myndlist = [100, 50, 65, 82, 23]
+myndlist.sort(key = myfunc)
+print(myndlist)
