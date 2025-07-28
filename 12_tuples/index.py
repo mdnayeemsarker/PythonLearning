@@ -34,3 +34,8 @@ booltouple = (True, False, False, True)
 print(type(strtouple))
 print(type(inttouple))
 print(type(booltouple))
+
+#A tuple can contain different data types
+print("\nA tuple can contain different data types")
+mytupled = ("nayeem", "asha", 25, 129943, False, True, True)
+print(type(mytupled))
