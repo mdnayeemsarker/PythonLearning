@@ -7,3 +7,10 @@ mylist = ["Laravel", "flask", "Django"]
 print(oldlist, mylist)
 oldlist = oldlist + mylist
 print(oldlist)
+
+
+#Another way to join two lists is by appending all the items from list2 into list1, one by one:
+print("\nanother way to join")
+for x in oldlist:
+    mylist.append(x)
+print(mylist)
