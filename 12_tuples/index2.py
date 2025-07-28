@@ -20,3 +20,10 @@ print(mytuple)
 y = ("pumkin",)
 mytuple += y
 print(mytuple)
+
+
+#Remove Items
+y = list(mytuple)
+y.remove("apple")
+mytuple = tuple(y)
+print(mytuple)
