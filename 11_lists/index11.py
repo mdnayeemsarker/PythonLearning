@@ -23,3 +23,6 @@ print(mylist.count("flask"))
 print("\nextend")
 mylist.extend(mylist1)
 print(mylist)
+
+print("\nindex")
+print(mylist1.index("Django"))
