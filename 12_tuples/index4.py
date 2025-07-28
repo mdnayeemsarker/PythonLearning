@@ -11,3 +11,11 @@ for x in mytuple:
 print("\nLoop Through the Index Numbers")
 for i in range(len(mytuple)):
   print(mytuple[i])
+
+
+#Using a While Loop
+print("\nUsing a While Loop")
+i = 0
+while i < len(mytuple):
+  print(mytuple[i])
+  i = i + 1
