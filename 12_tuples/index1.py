@@ -19,3 +19,8 @@ print(mytuple[2:5])
 
 print(mytuple[:4])
 print(mytuple[4:])
+
+
+#Range of Negative Indexes
+print("\nRange of Negative Indexes")
+print(mytuple[-4:-1])
