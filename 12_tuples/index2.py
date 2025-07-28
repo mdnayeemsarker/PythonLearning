@@ -27,3 +27,8 @@ y = list(mytuple)
 y.remove("apple")
 mytuple = tuple(y)
 print(mytuple)
+
+#Or delete the tuple completely
+thistuple = ("apple", "banana", "cherry")
+del thistuple
+print(thistuple)
