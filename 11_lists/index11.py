@@ -30,3 +30,7 @@ print(mylist1.index("Django"))
 print("\ninsert")
 mylist1.insert(3, "insert")
 print(mylist1)
+
+print("\npop")
+mylist1.pop()
+print(mylist1)
