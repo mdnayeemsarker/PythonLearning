@@ -8,3 +8,9 @@ tuple3 = tuple1 + tuple2
 x = tuple3.count(2)
 print(x)
 
+
+#index = Searches the tuple for a specified value and returns the position of where it was found
+print("\nindex")
+x = tuple3.index(2)
+
+print(x)
