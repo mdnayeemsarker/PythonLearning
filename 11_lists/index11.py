@@ -34,3 +34,7 @@ print(mylist1)
 print("\npop")
 mylist1.pop()
 print(mylist1)
+
+print("\nremove")
+mylist1.remove("insert")
+print(mylist1)
