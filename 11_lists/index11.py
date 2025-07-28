@@ -19,3 +19,7 @@ print(mylist)
 
 print("\ncount")
 print(mylist.count("flask"))
+
+print("\nextend")
+mylist.extend(mylist1)
+print(mylist)
