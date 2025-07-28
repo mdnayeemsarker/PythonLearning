@@ -8,3 +8,11 @@ y[1] = "kiwi"
 x = tuple(y)
 
 print(x)
+
+
+#Add Items
+mytuple = ("apple", "banana", "cherry")
+y = list(mytuple)
+y.append("orange")
+mytuple = tuple(y)
+print(mytuple)
