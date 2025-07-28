@@ -20,3 +20,10 @@ mytuple = ("apple", "banana", "cherry", "strawberry", "raspberry")
 print(green)
 print(yellow)
 print(red)
+
+#another way
+(green, *tropic, red) = mytuple
+
+print(green)
+print(tropic)
+print(red)
