@@ -12,3 +12,9 @@ print(mylist)
 print("\nUse the list method")
 mylist = list(oldlist)
 print(mylist)
+
+
+#Use the slice Operator
+print("\nUse the slice Operator")
+mylist = oldlist[:]
+print(mylist)
