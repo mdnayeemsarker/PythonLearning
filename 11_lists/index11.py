@@ -7,3 +7,8 @@ mylist = ["Laravel", "flask", "Django"]
 print("\nappend")
 mylist.append(oldlist[2])
 print(mylist)
+
+
+print("\nclear")
+mylist.clear()
+print(mylist)
