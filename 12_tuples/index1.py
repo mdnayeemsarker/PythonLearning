@@ -24,3 +24,9 @@ print(mytuple[4:])
 #Range of Negative Indexes
 print("\nRange of Negative Indexes")
 print(mytuple[-4:-1])
+
+
+#Check if Item Exists
+print("\nCheck if Item Exists")
+if "apple" in mytuple:
+  print("Yes, 'apple' is in the fruits tuple")
