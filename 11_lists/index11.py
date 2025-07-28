@@ -26,3 +26,7 @@ print(mylist)
 
 print("\nindex")
 print(mylist1.index("Django"))
+
+print("\ninsert")
+mylist1.insert(3, "insert")
+print(mylist1)
