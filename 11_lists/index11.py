@@ -42,3 +42,7 @@ print(mylist1)
 print("\nreverse")
 mylist1.reverse()
 print(mylist1)
+
+print("\nsort")
+mylist1.sort()
+print(mylist1)
