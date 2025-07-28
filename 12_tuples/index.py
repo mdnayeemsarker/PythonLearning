@@ -39,3 +39,9 @@ print(type(booltouple))
 print("\nA tuple can contain different data types")
 mytupled = ("nayeem", "asha", 25, 129943, False, True, True)
 print(type(mytupled))
+
+
+#The tuple Constructor
+print("\nThe tuple Constructor")
+myuple = tuple(("apple", "banana", "cherry"))
+print(mytuple)
