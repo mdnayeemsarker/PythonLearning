@@ -24,3 +24,13 @@ mytupleo = ("apple",)
 mytupleo1 = ("apple")
 print(type(mytupleo))
 print(type(mytupleo1))
+
+
+#Tuple Items - Data Types
+print("\nTuple Items - Data Types")
+strtouple = ("apple", "banana", "cherry", "apple", "cherry")
+inttouple = (25,36,48,96,54)
+booltouple = (True, False, False, True)
+print(type(strtouple))
+print(type(inttouple))
+print(type(booltouple))
