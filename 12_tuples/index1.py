@@ -10,3 +10,9 @@ print(mytuple[2])
 print("\nNegative Indexing")
 mytuple = ("apple", "banana", "cherry")
 print(mytuple[-1])
+
+
+#Range of Indexes
+print("\nRange of Indexes")
+mytuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+print(mytuple[2:5])
