@@ -11,3 +11,8 @@ print("\nAllow Duplicates")
 
 mytuple = ("apple", "banana", "cherry", "apple", "cherry")
 print(mytuple)
+
+
+#Tuple Length
+print("\nTuple Length")
+print(len(mytuple))
