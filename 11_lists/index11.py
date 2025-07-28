@@ -38,3 +38,7 @@ print(mylist1)
 print("\nremove")
 mylist1.remove("insert")
 print(mylist1)
+
+print("\nreverse")
+mylist1.reverse()
+print(mylist1)
