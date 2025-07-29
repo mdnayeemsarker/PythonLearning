@@ -20,3 +20,18 @@ print(myset)
 #Get the Length of a Set
 print("\nGet the Length of a Set")
 print(len(myset))
+
+
+#Set Items - Data Types
+print("\nSet Items - Data Types")
+strset = {"apple", "banana", "cherry"}
+intset = {1, 5, 7, 9, 3}
+boolset = {True, False, False}
+print(strset)
+print(intset)
+print(boolset)
+
+print("\nset data type")
+print(type(strset))
+print(type(intset))
+print(type(boolset))
