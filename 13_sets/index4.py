@@ -10,3 +10,9 @@ myset.remove("banana") #it remove easily if the item is exist
 print(myset)
 # myset.remove("remove") #it will gettign issue
 print(myset)
+
+
+#discard
+print("\nRemove Item")
+myset.discard("remove") #it not getting any error if item not exist
+print(myset)
