@@ -22,3 +22,10 @@ print(myset)
 print("\nRemove Item by pop")
 myset.pop() #it not remove random item
 print(myset)
+
+
+#clear
+print("\nRemove Item by clear")
+newset = {"apple", "banana", "cherry"}
+newset.clear() #it clear the set
+print(newset)
