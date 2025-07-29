@@ -29,3 +29,9 @@ print("\nRemove Item by clear")
 newset = {"apple", "banana", "cherry"}
 newset.clear() #it clear the set
 print(newset)
+
+
+#The del keyword will delete the set completely:
+print("\ndel the set by using keyword")
+del myset
+print(myset)
