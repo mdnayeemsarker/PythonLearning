@@ -11,3 +11,7 @@ print(myset)
 print("\nDuplicates Not Allowed")
 myset = {"apple", "banana", "cherry", "apple"}
 print(myset)
+
+#consider the same value
+myset = {"apple", "banana", "cherry", True, 1, 2}
+print(myset)
