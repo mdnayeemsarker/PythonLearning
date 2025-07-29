@@ -13,6 +13,12 @@ print(myset)
 
 
 #discard
-print("\nRemove Item")
+print("\nRemove Item by discard")
 myset.discard("remove") #it not getting any error if item not exist
+print(myset)
+
+
+#pop
+print("\nRemove Item by pop")
+myset.pop() #it not remove random item
 print(myset)
