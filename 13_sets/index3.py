@@ -13,3 +13,9 @@ print("\nAdd Set")
 tropical = {"pineapple", "mango", "papaya"}
 myset.update(tropical)
 print(myset)
+
+
+#Add Any Iterable
+mylist = ["kiwi", "orange"]
+myset.update(mylist)
+print(myset)
