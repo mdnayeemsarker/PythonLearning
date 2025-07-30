@@ -43,3 +43,11 @@ print("\ndiscard")
 fruits = {"apple", "banana", "cherry"}
 fruits.discard("banana")
 print(fruits)
+
+
+#intersection = Returns a set, that is the intersection of two other sets
+print("\nintersection")
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+z = x.intersection(y)
+print(z)
