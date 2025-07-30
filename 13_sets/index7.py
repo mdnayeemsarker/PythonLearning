@@ -75,3 +75,11 @@ x = {"a", "b", "c"}
 y = {"f", "e", "d", "c", "b", "a"}
 z = x.issubset(y)
 print(z)
+
+
+#issuperset = Returns True if all items of another set is present in this set
+print("\nissuperset")
+x = {"f", "e", "d", "c", "b", "a"}
+y = {"a", "b", "c"}
+z = x.issuperset(y)
+print(z)
