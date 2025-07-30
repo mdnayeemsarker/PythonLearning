@@ -55,3 +55,8 @@ set2 = {"google", "microsoft", "apple"}
 
 set3 = set1.intersection(set2)
 print(set3)
+
+#Use & to join two sets:
+print("\nUse & to join two sets:")
+set3 = set1 & set2
+print(set3)
