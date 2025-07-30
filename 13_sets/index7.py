@@ -90,3 +90,10 @@ print("\npop")
 fruits = {"apple", "banana", "cherry"}
 fruits.pop()
 print(fruits)
+
+
+#remove = Removes the specified element
+print("\nremove")
+fruits = {"apple", "banana", "cherry"}
+fruits.remove("banana")
+print(fruits)
