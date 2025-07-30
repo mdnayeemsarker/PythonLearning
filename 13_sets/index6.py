@@ -80,3 +80,9 @@ set3 = set1.difference(set2)
 print(set3)
 set3 = set2.difference(set1)
 print(set3)
+
+print("\nanother")
+set3 = set1 - set2
+print(set3)
+set3 = set2 - set1
+print(set3)
