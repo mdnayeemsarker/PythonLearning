@@ -20,3 +20,11 @@ print("\ncopy")
 fruits = {"apple", "banana", "cherry"}
 x = fruits.copy()
 print(x)
+
+
+#difference = Returns a set containing the difference between two or more sets
+print("\ndifference")
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+z = x.difference(y)
+print(z)
