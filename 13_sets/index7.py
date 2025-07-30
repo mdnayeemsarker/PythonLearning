@@ -97,3 +97,11 @@ print("\nremove")
 fruits = {"apple", "banana", "cherry"}
 fruits.remove("banana")
 print(fruits)
+
+
+#symmetric_difference = Returns a set with the symmetric differences of two sets
+print("\nsymmetric_difference")
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+z = x.symmetric_difference(y)
+print(z)
