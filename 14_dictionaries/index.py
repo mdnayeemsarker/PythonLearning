@@ -26,3 +26,8 @@ mydict = {
   "year": 2020
 }
 print(mydict)
+
+
+#Dictionary Length
+print("\nDictionary Length")
+print(len(mydict))
