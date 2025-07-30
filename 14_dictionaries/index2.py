@@ -8,3 +8,7 @@ mydict = {
   "year": 1964
 }
 print(mydict["model"])
+
+#There is also a method called get() that will give you the same result:
+print("\nanother way to use get method")
+print(mydict.get("model"))
