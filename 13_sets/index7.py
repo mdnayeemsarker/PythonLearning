@@ -67,3 +67,11 @@ x = {"apple", "banana", "cherry"}
 y = {"google", "microsoft", "facebook"}
 z = x.isdisjoint(y)
 print(z)
+
+
+#issubset = Returns True if all items of this set is present in another set
+print("\nissubset")
+x = {"a", "b", "c"}
+y = {"f", "e", "d", "c", "b", "a"}
+z = x.issubset(y)
+print(z)
