@@ -83,3 +83,10 @@ x = {"f", "e", "d", "c", "b", "a"}
 y = {"a", "b", "c"}
 z = x.issuperset(y)
 print(z)
+
+
+#pop = Removes an element from the set
+print("\npop")
+fruits = {"apple", "banana", "cherry"}
+fruits.pop()
+print(fruits)
