@@ -121,3 +121,11 @@ x = {"apple", "banana", "cherry"}
 y = {"google", "microsoft", "apple"}
 z = x.union(y)
 print(z)
+
+
+#update = Update the set with the union of this set and others
+print("\nupdate")
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+x.update(y)
+print(x)
