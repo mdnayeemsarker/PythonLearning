@@ -40,3 +40,9 @@ y = (1, 2, 3)
 
 z = x.union(y)
 print(z)
+
+
+#Update
+print("\nUpdate")
+set1.update(set2)
+print(set1)
