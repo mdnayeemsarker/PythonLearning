@@ -36,3 +36,10 @@ x = {"apple", "banana", "cherry"}
 y = {"google", "microsoft", "apple"}
 x.difference_update(y)
 print(x)
+
+
+#discard = Remove the specified item
+print("\ndiscard")
+fruits = {"apple", "banana", "cherry"}
+fruits.discard("banana")
+print(fruits)
