@@ -113,3 +113,14 @@ set3 = set1 ^ set2
 print(set3)
 set3 = set2 ^ set1
 print(set3)
+
+
+#symmetric difference update
+print("\nsymmetric difference update")
+set1 = {"apple", "banana", "cherry"}
+set2 = {"google", "microsoft", "apple"}
+
+set1.symmetric_difference_update(set2)
+print(set1)
+set2.symmetric_difference_update(set1)
+print(set2)
