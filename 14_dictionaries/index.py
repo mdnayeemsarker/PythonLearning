@@ -42,3 +42,9 @@ mydict = {
   "colors": ["red", "white", "blue"]
 }
 print(type(mydict))
+
+
+#Dictionary Constructor
+print("\nDictionary Constructor")
+mydict = dict(name = "John", age = 36, country = "Norway")
+print(mydict)
