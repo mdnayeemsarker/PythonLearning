@@ -8,3 +8,8 @@ mydict = {
   "year": 1964
 }
 print(mydict)
+
+
+#Dictionary Items
+print("\nDictionary Items")
+print(mydict["brand"])
