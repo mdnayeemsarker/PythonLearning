@@ -28,3 +28,11 @@ x = {"apple", "banana", "cherry"}
 y = {"google", "microsoft", "apple"}
 z = x.difference(y)
 print(z)
+
+
+#difference_update = Removes the items in this set that are also included in another, specified set
+print("\ndifference_update")
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+x.difference_update(y)
+print(x)
