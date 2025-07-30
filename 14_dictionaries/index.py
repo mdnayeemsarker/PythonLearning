@@ -13,3 +13,6 @@ print(mydict)
 #Dictionary Items
 print("\nDictionary Items")
 print(mydict["brand"])
+
+# Changeable
+# Dictionaries are changeable, meaning that we can change, add or remove items after the dictionary has been created.
