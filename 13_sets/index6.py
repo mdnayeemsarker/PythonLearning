@@ -86,3 +86,10 @@ set3 = set1 - set2
 print(set3)
 set3 = set2 - set1
 print(set3)
+
+#difference update method
+print("\ndiffrent update method")
+set1 = {"apple", "banana", "cherry"}
+set2 = {"google", "microsoft", "apple"}
+set1.difference_update(set2)
+print(set1)
