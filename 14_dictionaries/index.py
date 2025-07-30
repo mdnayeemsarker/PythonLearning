@@ -31,3 +31,14 @@ print(mydict)
 #Dictionary Length
 print("\nDictionary Length")
 print(len(mydict))
+
+
+#Dictionary Items - Data Types
+print("\nDictionary Items - Data Types")
+mydict = {
+  "brand": "Ford",
+  "electric": False,
+  "year": 1964,
+  "colors": ["red", "white", "blue"]
+}
+print(type(mydict))
