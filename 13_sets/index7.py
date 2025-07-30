@@ -59,3 +59,11 @@ x = {"apple", "banana", "cherry"}
 y = {"google", "microsoft", "apple"}
 x.intersection_update(y)
 print(x)
+
+
+#isdisjoint = Returns whether two sets have a intersection or not
+print("\nisdisjoint")
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "facebook"}
+z = x.isdisjoint(y)
+print(z)
