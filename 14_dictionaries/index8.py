@@ -44,3 +44,12 @@ print(myfamily)
 #Access Items in Nested Dictionaries
 print("\nAccess Items in Nested Dictionaries")
 print(myfamily["child2"]["name"])
+
+
+#Loop Through Nested Dictionaries
+print("\nLoop Through Nested Dictionaries")
+for x, obj in myfamily.items():
+  print(x)
+
+  for y in obj:
+    print(y + ':', obj[y])
