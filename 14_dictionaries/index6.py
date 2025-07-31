@@ -16,3 +16,9 @@ for x in mydict:
 print("\nPrint all values in the dictionary, one by one:")
 for x in mydict:
   print(mydict[x])
+
+
+#use the values() method to return values of a dictionary:
+print("\nuse the values")
+for x in mydict.values():
+  print(x)
