@@ -20,3 +20,11 @@ car = {
 }
 x = car.copy()
 print(x)
+
+
+#fromkeys = Returns a dictionary with the specified keys and value
+print("\nfromkeys")
+x = ('key1', 'key2', 'key3')
+y = 0
+thisdict = dict.fromkeys(x, y)
+print(thisdict)
