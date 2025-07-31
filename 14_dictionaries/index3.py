@@ -10,3 +10,9 @@ mydict = {
 print(mydict)
 mydict["year"] = 2018
 print(mydict)
+
+
+#Update Dictionary
+print("\nUpdate Dictionary")
+mydict.update({"year": 2020})
+print(mydict)
