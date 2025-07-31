@@ -61,3 +61,14 @@ car = {
 }
 x = car.keys()
 print(x)
+
+
+#pop = Removes the element with the specified key
+print("\npop")
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+car.pop("model")
+print(car)
