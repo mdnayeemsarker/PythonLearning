@@ -39,3 +39,8 @@ myfamily = {
   "child3" : child3
 }
 print(myfamily)
+
+
+#Access Items in Nested Dictionaries
+print("\nAccess Items in Nested Dictionaries")
+print(myfamily["child2"]["name"])
