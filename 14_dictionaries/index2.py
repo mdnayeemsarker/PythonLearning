@@ -42,3 +42,9 @@ x = car.items()
 print(x) #before the change
 car["year"] = 2020
 print(x) #after the change
+
+
+#Check if Key Exists
+print("\nCheck if Key Exists")
+if "model" in mydict:
+  print("Yes, 'model' is one of the keys in the mydict dictionary")
