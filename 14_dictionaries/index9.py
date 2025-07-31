@@ -72,3 +72,14 @@ car = {
 }
 car.pop("model")
 print(car)
+
+
+#popitem = Removes the last inserted key-value pair
+print("\npopitem")
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+car.popitem()
+print(car)
