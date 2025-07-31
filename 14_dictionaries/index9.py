@@ -94,3 +94,14 @@ car = {
 }
 x = car.setdefault("model", "Bronco")
 print(x)
+
+
+#update = Updates the dictionary with the specified key-value pairs
+print("\nupdate")
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+car.update({"color": "White"})
+print(car)
