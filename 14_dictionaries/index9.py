@@ -50,3 +50,14 @@ car = {
 }
 x = car.items()
 print(x)
+
+
+#keys = Returns a list containing the dictionary's keys
+print("\nkeys")
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+x = car.keys()
+print(x)
