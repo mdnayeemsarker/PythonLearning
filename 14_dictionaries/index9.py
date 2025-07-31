@@ -83,3 +83,14 @@ car = {
 }
 car.popitem()
 print(car)
+
+
+#setdefault = Returns the value of the specified key. If the key does not exist: insert the key, with the specified value
+print("\nsetdefault")
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+x = car.setdefault("model", "Bronco")
+print(x)
