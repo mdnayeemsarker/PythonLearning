@@ -105,3 +105,14 @@ car = {
 }
 car.update({"color": "White"})
 print(car)
+
+
+#values = Returns a list of all the values in the dictionary
+print("\nvalues")
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+x = car.values()
+print(x)
