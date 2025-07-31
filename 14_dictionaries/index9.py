@@ -39,3 +39,14 @@ car = {
 }
 x = car.get("model")
 print(x)
+
+
+#items = Returns a list containing a tuple for each key value pair
+print("\nitems")
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+x = car.items()
+print(x)
