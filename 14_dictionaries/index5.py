@@ -15,3 +15,13 @@ print(mydict)
 print("\npopitem")
 mydict.popitem()
 print(mydict)
+
+#The del keyword removes the item with the specified key name:
+print("\nDel keyword")
+mydict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+del mydict["model"]
+print(mydict)
