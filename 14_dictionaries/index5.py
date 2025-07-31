@@ -25,3 +25,9 @@ mydict = {
 }
 del mydict["model"]
 print(mydict)
+
+
+#The del keyword can also delete the dictionary completely:
+print("\ndel keyword also delete the dictionary")
+del mydict
+print(mydict)
