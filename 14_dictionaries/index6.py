@@ -10,3 +10,9 @@ mydict = {
 }
 for x in mydict:
   print(x)
+
+
+#Print all values in the dictionary, one by one:
+print("\nPrint all values in the dictionary, one by one:")
+for x in mydict:
+  print(mydict[x])
