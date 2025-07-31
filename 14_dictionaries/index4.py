@@ -10,3 +10,10 @@ mydict = {
 print(mydict)
 mydict["color"] = "red"
 print(mydict)
+
+
+#Update Dictionary
+print("\nUpdate Dictionary")
+print(mydict)
+mydict.update({"stock": 250})
+print(mydict)
