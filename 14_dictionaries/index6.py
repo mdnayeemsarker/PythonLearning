@@ -22,3 +22,9 @@ for x in mydict:
 print("\nuse the values")
 for x in mydict.values():
   print(x)
+
+
+#You can use the keys() method to return the keys of a dictionary:
+print("\nuse the keys")
+for x in mydict.keys():
+  print(x)
