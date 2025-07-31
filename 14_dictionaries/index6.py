@@ -28,3 +28,9 @@ for x in mydict.values():
 print("\nuse the keys")
 for x in mydict.keys():
   print(x)
+
+
+#Loop through both keys and values, by using the items() method:
+print("\nLoop through both keys and values")
+for x, y in mydict.items():
+  print(x, y)
