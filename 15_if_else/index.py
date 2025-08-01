@@ -101,3 +101,11 @@ if x > 10:
     print("and also above 20!")
   else:
     print("but not above 20.")
+
+
+#The pass Statement
+print("\nThe pass Statement")
+a = 33
+b = 200
+if b > a:
+  pass # use pass for not getting error
