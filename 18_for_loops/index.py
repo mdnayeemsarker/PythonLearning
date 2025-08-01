@@ -37,3 +37,8 @@ for x in fruits:
 print("\nThe range Function")
 for x in range(6):
   print(x)
+
+#another range
+print("\nanother range")
+for x in range(2, 6):
+  print(x)
