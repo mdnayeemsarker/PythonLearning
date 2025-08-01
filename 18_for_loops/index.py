@@ -23,3 +23,11 @@ for x in fruits:
   print(x)
   if x == "banana":
     break
+
+
+#The continue Statement
+print("\nThe continue Statement")
+for x in fruits:
+  if x == "banana":
+    continue
+  print(x)
