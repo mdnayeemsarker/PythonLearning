@@ -48,3 +48,8 @@ if b > a:
   print("b is greater than a")
 else:
   print("b is not greater than a")
+
+
+#Short Hand If
+print("\nShort Hand If")
+if a > b: print("a is greater than b")
