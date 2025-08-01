@@ -15,3 +15,11 @@ for x in fruits:
 print("\nLooping Through a String")
 for x in "banana":
   print(x)
+
+
+#The break Statement
+print("\nThe break Statement")
+for x in fruits:
+  print(x)
+  if x == "banana":
+    break
