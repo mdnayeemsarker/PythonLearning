@@ -55,3 +55,12 @@ for x in range(6):
   print(x)
 else:
   print("Finally finished!")
+
+
+#Else with range
+print("\nElse with range")
+for x in range(6):
+  if x == 3: break
+  print(x)
+else:
+  print("Finally finished!")
