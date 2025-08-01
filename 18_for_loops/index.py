@@ -47,3 +47,11 @@ for x in range(2, 6):
 print("\nanother range")
 for x in range(2, 30, 3):
   print(x)
+
+
+#Else in For Loop
+print("\nElse in For Loop")
+for x in range(6):
+  print(x)
+else:
+  print("Finally finished!")
