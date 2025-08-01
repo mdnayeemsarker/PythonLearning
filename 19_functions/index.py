@@ -28,3 +28,8 @@ my_function("Linus")
 # An argument is the value that is sent to the function when it is called.
 
 
+#Number of Arguments
+print("\nNumber of Arguments")
+def my_function(fname, lname):
+  print(fname + " " + lname)
+my_function("Emil", "Refsnes")
