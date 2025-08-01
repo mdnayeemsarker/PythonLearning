@@ -9,3 +9,9 @@ print("\nPython For Loops")
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
   print(x)
+
+
+#Looping Through a String
+print("\nLooping Through a String")
+for x in "banana":
+  print(x)
