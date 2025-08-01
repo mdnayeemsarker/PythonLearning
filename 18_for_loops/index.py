@@ -38,7 +38,12 @@ print("\nThe range Function")
 for x in range(6):
   print(x)
 
-#another range
+#another range 2
 print("\nanother range")
 for x in range(2, 6):
+  print(x)
+
+#another range 3
+print("\nanother range")
+for x in range(2, 30, 3):
   print(x)
