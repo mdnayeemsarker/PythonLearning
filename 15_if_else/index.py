@@ -19,3 +19,13 @@ if b > a:
 # b = 200
 # if b > a:
 # print("b is greater than a") # you will get an error
+
+
+#Elif
+print("\nElif")
+c = 33
+d = 33
+if c > d:
+  print("b is greater than a")
+elif c == d:
+  print("a and b are equal")
