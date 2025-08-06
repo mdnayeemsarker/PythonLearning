@@ -114,3 +114,11 @@ def my_function(*, x):
   print(x)
 
 my_function(x = 3)
+
+
+#Combine Positional-Only and Keyword-Only
+print('\nCombine Positional-Only and Keyword-Only')
+def my_function(a, b, /, *, c, d):
+  print(a + b + c + d)
+  
+my_function(5, 6, c = 7, d = 8)
