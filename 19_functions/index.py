@@ -93,3 +93,11 @@ print(my_function(9))
 print('\nThe pass Statement')
 def myfunction():
   pass
+
+
+#Positional-Only Arguments
+print('\nPositional-Only Arguments')
+def my_function(x, /):
+  print(x)
+
+my_function(3)
