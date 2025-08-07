@@ -102,3 +102,10 @@ print('\nreverse')
 fruits = ['apple', 'banana', 'cherry']
 fruits.reverse()
 print(fruits)
+
+
+#sort = Sorts the list
+print('\nsort')
+cars = ['Ford', 'BMW', 'Volvo']
+cars.sort()
+print(cars)
