@@ -32,3 +32,12 @@ print(cars)
 print('\nRemoving Array Elements')
 cars.pop(1)
 print(cars)
+
+
+
+#Array Methods
+print('\nArray Methods')
+#append = Adds an element at the end of the list
+print('\nappend')
+fruits = ['apple', 'banana', 'cherry']
+fruits.append("orange")
