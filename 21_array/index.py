@@ -26,3 +26,9 @@ for x in cars:
 print('\nAdding Array Elements')
 cars.append("Honda")
 print(cars)
+
+
+#Removing Array Elements
+print('\nRemoving Array Elements')
+cars.pop(1)
+print(cars)
