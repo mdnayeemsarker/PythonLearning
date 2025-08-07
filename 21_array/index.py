@@ -75,3 +75,10 @@ print('\nindex')
 fruits = ['apple', 'banana', 'cherry']
 x = fruits.index("cherry")
 print(x)
+
+
+#insert = Adds an element at the specified position
+print('\ninsert')
+fruits = ['apple', 'banana', 'cherry']
+fruits.insert(1, "orange")
+print(fruits)
