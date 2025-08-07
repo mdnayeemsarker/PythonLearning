@@ -54,3 +54,9 @@ print('\ncopy')
 fruits = ['apple', 'banana', 'cherry', 'orange']
 x = fruits.copy()
 print(x)
+
+
+#count = Returns the number of elements with the specified value
+print('\ncount')
+x = fruits.count("cherry")
+print(x)
