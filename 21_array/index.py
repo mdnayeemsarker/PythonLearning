@@ -41,3 +41,9 @@ print('\nArray Methods')
 print('\nappend')
 fruits = ['apple', 'banana', 'cherry']
 fruits.append("orange")
+
+
+#clear = Removes all the elements from the list
+print('\nclear')
+fruits.clear()
+print(fruits)
