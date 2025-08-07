@@ -82,3 +82,10 @@ print('\ninsert')
 fruits = ['apple', 'banana', 'cherry']
 fruits.insert(1, "orange")
 print(fruits)
+
+
+#pop = Removes the element at the specified position
+print('\npop')
+fruits = ['apple', 'banana', 'cherry']
+fruits.pop(1)
+print(fruits)
