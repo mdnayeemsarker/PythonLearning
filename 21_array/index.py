@@ -68,3 +68,10 @@ fruits = ['apple', 'banana', 'cherry']
 cars = ['Ford', 'BMW', 'Volvo']
 fruits.extend(cars)
 print(fruits)
+
+
+#index = Returns the index of the first element with the specified value
+print('\nindex')
+fruits = ['apple', 'banana', 'cherry']
+x = fruits.index("cherry")
+print(x)
