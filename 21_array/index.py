@@ -20,3 +20,9 @@ print(len(cars))
 print('\nLooping Array Elements')
 for x in cars:
   print(x)
+
+
+#Adding Array Elements
+print('\nAdding Array Elements')
+cars.append("Honda")
+print(cars)
