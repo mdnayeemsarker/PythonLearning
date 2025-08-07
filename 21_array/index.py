@@ -47,3 +47,10 @@ fruits.append("orange")
 print('\nclear')
 fruits.clear()
 print(fruits)
+
+
+#copy = Returns a copy of the list
+print('\ncopy')
+fruits = ['apple', 'banana', 'cherry', 'orange']
+x = fruits.copy()
+print(x)
