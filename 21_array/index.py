@@ -14,3 +14,9 @@ print(cars[1])
 #The Length of an Array
 print('\nThe Length of an Array')
 print(len(cars))
+
+
+#Looping Array Elements
+print('\nLooping Array Elements')
+for x in cars:
+  print(x)
