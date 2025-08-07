@@ -96,3 +96,9 @@ print('\nremove')
 fruits = ['apple', 'banana', 'cherry']
 fruits.remove("banana")
 print(fruits)
+
+#reverse = Reverses the order of the list
+print('\nreverse')
+fruits = ['apple', 'banana', 'cherry']
+fruits.reverse()
+print(fruits)
