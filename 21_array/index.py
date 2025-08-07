@@ -89,3 +89,10 @@ print('\npop')
 fruits = ['apple', 'banana', 'cherry']
 fruits.pop(1)
 print(fruits)
+
+
+#remove = Removes the first item with the specified value
+print('\nremove')
+fruits = ['apple', 'banana', 'cherry']
+fruits.remove("banana")
+print(fruits)
