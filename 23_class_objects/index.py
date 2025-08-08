@@ -123,3 +123,10 @@ class Person:
 p1 = Person("John", 36)
 del p1
 # print(p1)
+
+
+#The pass Statement
+print('\nThe pass Statement')
+class Person:
+  pass
+# having an empty class definition like this, would raise an error without the pass statement
