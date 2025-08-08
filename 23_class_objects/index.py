@@ -93,3 +93,18 @@ p1 = Person("John", 36)
 
 p1.age = 40
 print(p1.age)
+
+
+#Delete Object Properties
+print('\nDelete Object Properties')
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+  def myfunc(self):
+    print("Hello my name is " + self.name)
+
+p1 = Person("John", 36)
+del p1.age
+# print(p1.age)
