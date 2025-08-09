@@ -7,3 +7,10 @@ print('\nstring')
 #String = For strings len() returns the number of characters:
 x = "Hello World!"
 print(len(x))
+
+
+#Tuple
+print('\nTuple')
+# For tuples len() returns the number of items in the tuple:
+mytuple = ("apple", "banana", "cherry")
+print(len(mytuple))
