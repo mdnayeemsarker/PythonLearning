@@ -71,3 +71,17 @@ class Student(Person):
     self.graduationyear = 2020
 x = Student("Nayeem", "Sarker")
 print(x.graduationyear)
+
+
+
+#Add Methods
+print('\nAdd Methods')
+class Student(Person):
+  def __init__(self, fname, lname):
+    super().__init__(fname, lname)
+    self.graduationyear = 2020
+
+  def welcome(self):
+    print("Welcome", self.firstname, self.lastname, "to the class of", self.graduationyear)
+x = Student("Nayeem", "Sarker")
+x.welcome()
