@@ -14,3 +14,13 @@ print('\nTuple')
 # For tuples len() returns the number of items in the tuple:
 mytuple = ("apple", "banana", "cherry")
 print(len(mytuple))
+
+#Dictionary
+print('\nDictionary')
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+print(len(thisdict))
