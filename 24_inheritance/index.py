@@ -60,3 +60,14 @@ class Student(Person):
 
 x = Student("Nayeem", "Sarker")
 x.printname()
+
+
+
+#Add Properties
+print('\nAdd Properties')
+class Student(Person):
+  def __init__(self, fname, lname):
+    super().__init__(fname, lname)
+    self.graduationyear = 2020
+x = Student("Nayeem", "Sarker")
+print(x.graduationyear)
