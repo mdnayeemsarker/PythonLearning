@@ -29,3 +29,8 @@ import platform
 
 x = platform.system()
 print(x)
+
+print('\nUsing the dir() Function')
+
+x = dir(platform)
+print(x)
