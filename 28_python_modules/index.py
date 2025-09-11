@@ -34,3 +34,7 @@ print('\nUsing the dir() Function')
 
 x = dir(platform)
 print(x)
+
+print('\nImport From Module')
+from newmodule import person1
+print (person1["age"])
