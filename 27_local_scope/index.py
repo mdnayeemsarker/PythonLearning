@@ -7,3 +7,12 @@ def myfunc():
   print(x)
 
 myfunc()
+
+print('\nFunction Inside Function')
+def myfunc():
+  x = 300
+  def myinnerfunc():
+    print(x)
+  myinnerfunc()
+
+myfunc()
