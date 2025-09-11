@@ -40,3 +40,14 @@ def myfunc():
   x = 300
 myfunc()
 print(x)
+
+print('\nAnother Example of global keyword')
+x = 300
+
+def myfunc():
+  global x
+  x = 200
+
+myfunc()
+
+print(x)
