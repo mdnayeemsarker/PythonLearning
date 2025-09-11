@@ -23,3 +23,9 @@ import newmodule as mx
 print('\nRe-naming a Module')
 a = mx.person1["name"]
 print(a)
+
+print('\nBuilt-in Modules')
+import platform
+
+x = platform.system()
+print(x)
