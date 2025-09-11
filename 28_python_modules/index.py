@@ -7,3 +7,7 @@ import newmodule
 def greeting(name):
   print("Hello, " + name)
 newmodule.greeting("Jonathan")
+
+print('\nVariables in Module')
+a = newmodule.person1["age"]
+print(a)
