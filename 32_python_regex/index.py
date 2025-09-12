@@ -25,3 +25,9 @@ import re
 txt = "The rain in Spain"
 x = re.findall("ai", txt)
 print(x)
+
+#Another example
+print('\nAnother Example')
+txt = "The rain in Spain"
+x = re.findall("Portugal", txt)
+print(x)
