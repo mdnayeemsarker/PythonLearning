@@ -31,3 +31,10 @@ print('\nAnother Example')
 txt = "The rain in Spain"
 x = re.findall("Portugal", txt)
 print(x)
+
+
+#The search() Function
+print('\nThe search Function')
+txt = "The rain in Spain"
+x = re.search("\s", txt)
+print("The first white-space character is located in position:", x.start())
