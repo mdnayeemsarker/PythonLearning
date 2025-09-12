@@ -95,3 +95,10 @@ print('\nAnother Example')
 txt = "The rain in Spain"
 x = re.search(r"\bS\w+", txt)
 print(x.string)
+
+
+#Another example print where match
+print('\nAnother example print where match')
+txt = "The rain in Spain"
+x = re.search(r"\bS\w+", txt)
+print(x.group())
