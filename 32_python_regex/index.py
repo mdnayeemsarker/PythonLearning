@@ -45,3 +45,11 @@ print('\nAnother Example')
 txt = "The rain in Spain"
 x = re.search("Portugal", txt)
 print(x)
+
+
+#The split() Function
+print('\nThe split Function')
+
+txt = "The rain in Spain"
+x = re.split("\s", txt)
+print(x)
