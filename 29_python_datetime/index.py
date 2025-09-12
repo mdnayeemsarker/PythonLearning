@@ -5,3 +5,7 @@ print('\nPython Dates')
 import datetime
 x = datetime.datetime.now()
 print(x)
+
+print('\nDate Output')
+print(x.year)
+print(x.strftime("%A"))
