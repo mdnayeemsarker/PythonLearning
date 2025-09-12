@@ -82,3 +82,9 @@ print('\nMatch Object')
 txt = "The rain in Spain"
 x = re.search("ai", txt)
 print(x) #this will print an object
+
+
+#Another Example
+txt = "The rain in Spain"
+x = re.search(r"\bS\w+", txt)
+print(x.span())
