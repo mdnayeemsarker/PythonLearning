@@ -30,3 +30,9 @@ x = math.ceil(1.4)
 y = math.floor(1.4)
 print(x)
 print(y)
+
+
+#The math.pi constant, returns the value of PI (3.14...):
+print('\nthe math pi')
+x = math.pi
+print(x)
