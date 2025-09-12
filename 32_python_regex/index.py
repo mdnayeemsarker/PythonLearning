@@ -53,3 +53,10 @@ print('\nThe split Function')
 txt = "The rain in Spain"
 x = re.split("\s", txt)
 print(x)
+
+#Anther Function
+print('\nAnother Function')
+
+txt = "The rain in Spain"
+x = re.split("\s", txt, 1)
+print(x)
