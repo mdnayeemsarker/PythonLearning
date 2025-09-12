@@ -75,3 +75,10 @@ print('\nAnother Example')
 txt = "The rain in Spain"
 x = re.sub("\s", "9", txt, 2)
 print(x)
+
+
+#Match Object
+print('\nMatch Object')
+txt = "The rain in Spain"
+x = re.search("ai", txt)
+print(x) #this will print an object
