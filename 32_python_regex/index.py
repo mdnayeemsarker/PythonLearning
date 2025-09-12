@@ -16,3 +16,12 @@ if x:
   print("YES! We have a match!")
 else:
   print("No match")
+
+
+#The findall() Function
+print('\nThe findall Function')
+import re
+
+txt = "The rain in Spain"
+x = re.findall("ai", txt)
+print(x)
