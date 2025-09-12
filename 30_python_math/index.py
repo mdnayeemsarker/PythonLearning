@@ -17,3 +17,9 @@ print(x)
 print('\npower function')
 x = pow(4, 3)
 print(x)
+
+#The Math Module
+print('\nThe Math Module')
+import math
+x = math.sqrt(64)
+print(x)
