@@ -88,3 +88,10 @@ print(x) #this will print an object
 txt = "The rain in Spain"
 x = re.search(r"\bS\w+", txt)
 print(x.span())
+
+
+#Another Example
+print('\nAnother Example') 
+txt = "The rain in Spain"
+x = re.search(r"\bS\w+", txt)
+print(x.string)
