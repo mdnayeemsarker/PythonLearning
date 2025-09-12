@@ -15,3 +15,8 @@ print(x.strftime("%A"))
 print('\nCreating Date Objects')
 x = datetime.datetime(2020, 5, 17)
 print(x)
+
+#The strftime() Method
+print('\nThe strftime() Method')
+x = datetime.datetime(2018, 6, 1)
+print(x.strftime("%B"))
