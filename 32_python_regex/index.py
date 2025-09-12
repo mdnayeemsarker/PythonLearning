@@ -60,3 +60,11 @@ print('\nAnother Function')
 txt = "The rain in Spain"
 x = re.split("\s", txt, 1)
 print(x)
+
+
+#The sub() Function
+print('\nThe sub Function')
+
+txt = "The rain in Spain"
+x = re.sub("\s", "9", txt)
+print(x)
