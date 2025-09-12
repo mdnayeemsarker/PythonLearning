@@ -23,3 +23,10 @@ print('\nThe Math Module')
 import math
 x = math.sqrt(64)
 print(x)
+
+#The math.ceil(), and the math.floor()
+print('\nceil and floor')
+x = math.ceil(1.4)
+y = math.floor(1.4)
+print(x)
+print(y)
