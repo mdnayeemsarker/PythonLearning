@@ -11,3 +11,8 @@ try:
   print(x)
 except:
   print("An exception occurred")
+
+
+#another example
+print("\nAnother Example\n")
+print(x)
