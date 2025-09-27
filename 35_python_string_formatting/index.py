@@ -11,3 +11,9 @@ print("\nPlaceholders and Modifiers")
 price = 59
 txt = f"The price is {price} dollars"
 print(txt)
+
+#Placeholders and Modifiers another example
+print("\nPlaceholders and Modifiers another example")
+price = 59
+txt = f"The price is {price:.2f} dollars"
+print(txt)
