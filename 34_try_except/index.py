@@ -27,3 +27,14 @@ except NameError:
   print("Variable x is not defined")
 except:
   print("Something else went wrong")
+
+
+#Else
+print("\nElse")
+
+try:
+  print("Hello")
+except:
+  print("Something went wrong")
+else:
+  print("Nothing went wrong")
