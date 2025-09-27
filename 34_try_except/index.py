@@ -15,4 +15,15 @@ except:
 
 #another example
 print("\nAnother Example\n")
-print(x)
+# print(x)
+
+
+#Many Exceptions
+print("\nMany Exceptions")
+
+try:
+  print(x)
+except NameError:
+  print("Variable x is not defined")
+except:
+  print("Something else went wrong")
