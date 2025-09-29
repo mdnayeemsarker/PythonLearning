@@ -23,3 +23,7 @@ if result is not None:
   print("Result is ready")
 else:
   print("No result yet")
+
+#True or False
+print("\nTrue or False")
+print(bool(None))
