@@ -15,3 +15,11 @@ if x is None:
   print("Yes, x is None")
 else:
   print("No, x is not None")
+
+#Comparing to None another example
+print("\nComparing to None another example")
+result = None
+if result is not None:
+  print("Result is ready")
+else:
+  print("No result yet")
