@@ -57,3 +57,10 @@ def myconverter(x):
 
 txt = f"The plane is flying at a {myconverter(30000)} meter altitude"
 print(txt)
+
+
+#More Modifiers
+print("\nMore Modifiers")
+price = 59000
+txt = f"The price is {price:,} dollars"
+print(txt)
