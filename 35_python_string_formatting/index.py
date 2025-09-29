@@ -42,3 +42,10 @@ print("\nYou can perform if...else statements inside the placeholders:")
 price = 69
 txt = f"It is very {'Expensive' if price>50 else 'Cheap'}"
 print(txt)
+
+
+#Execute Functions in F-Strings
+print("\nExecute Functions in F-Strings")
+fruit = "apples"
+txt = f"I love {fruit.upper()}"
+print(txt)
