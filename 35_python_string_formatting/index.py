@@ -36,3 +36,9 @@ print("\nYou can perform if...else statements inside the placeholders:")
 price = 49
 txt = f"It is very {'Expensive' if price>50 else 'Cheap'}"
 print(txt)
+
+#You can perform if...else statements inside the placeholders:
+print("\nYou can perform if...else statements inside the placeholders:")
+price = 69
+txt = f"It is very {'Expensive' if price>50 else 'Cheap'}"
+print(txt)
