@@ -71,3 +71,10 @@ print("\nString format() Method")
 price = 49
 txt = "The price is {} dollars"
 print(txt.format(price))
+
+#Multiple Values
+print("\nMultiple Values\n")
+name = "John"
+age = 30
+txt = "My name is {} and I am {}"
+print(txt.format(name, age))
