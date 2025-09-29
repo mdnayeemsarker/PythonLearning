@@ -78,3 +78,10 @@ name = "John"
 age = 30
 txt = "My name is {} and I am {}"
 print(txt.format(name, age))
+
+#And add more placeholders
+quantity = 3
+itemno = 567
+price = 49
+myorder = "I want {} pieces of item number {} for {:.2f} dollars."
+print(myorder.format(quantity, itemno, price))
