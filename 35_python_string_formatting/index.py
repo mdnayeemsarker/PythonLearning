@@ -23,3 +23,10 @@ print(txt)
 print("\nPerform Operations in F-Strings")
 txt = f"The price is {59 * 0.8} dollars"
 print(txt)
+
+#Perform Operations in F-Strings another example
+print("\nPerform Operations in F-Strings another example")
+price = 59
+tax = 0.2
+txt = f"The price is {price * (price + tax)} dollars"
+print(txt)
