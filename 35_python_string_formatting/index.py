@@ -64,3 +64,10 @@ print("\nMore Modifiers")
 price = 59000
 txt = f"The price is {price:,} dollars"
 print(txt)
+
+
+#String format() Method
+print("\nString format() Method")
+price = 49
+txt = "The price is {} dollars"
+print(txt.format(price))
