@@ -102,3 +102,12 @@ age = 36
 name = "John"
 txt = "His name is {1}. {1} is {0} years old."
 print(txt.format(age, name))
+
+
+#Named Indexes
+print("\nNamed Indexes")
+myorder = "I want {quantity} pieces of item number {itemno} for {price:.2f} dollars."
+print(myorder.format(quantity=3, itemno=567, price=49))
+
+myorder = "I have a {carname}, it is a {model}."
+print(myorder.format(carname = "Ford", model = "Mustang"))
