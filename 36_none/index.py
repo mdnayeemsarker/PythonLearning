@@ -27,3 +27,11 @@ else:
 #True or False
 print("\nTrue or False")
 print(bool(None))
+
+#Functions returning None
+print("\nFunctions returning None")
+def myfunc():
+  x = 5
+
+x = myfunc()
+print(x)
