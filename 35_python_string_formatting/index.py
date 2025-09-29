@@ -17,3 +17,9 @@ print("\nPlaceholders and Modifiers another example")
 price = 59
 txt = f"The price is {price:.2f} dollars"
 print(txt)
+
+
+#Perform Operations in F-Strings
+print("\nPerform Operations in F-Strings")
+txt = f"The price is {59 * 0.8} dollars"
+print(txt)
