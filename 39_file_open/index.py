@@ -11,10 +11,15 @@
 #Syntax 
 #Open a File on the Server
 print("Opening a file:")
-f = open("demofile.txt", "r")
-print(f.read())
+# f = open("demofile.txt", "r")
+# print(f.read())
 
 #Open a File from local computer
 print("\nOpening a file from local computer:")
 f = open("/home/abmn/Desktop/Python/39_file_open/demofile.txt", "r")
 print(f.read())
+
+#Using the with statement
+print("\nUsing the with statement:")
+with open("/home/abmn/Desktop/Python/39_file_open/demofile.txt") as f:
+  print(f.read())
