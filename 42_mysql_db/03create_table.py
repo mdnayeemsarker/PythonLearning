@@ -19,3 +19,9 @@ mycursor.execute("SHOW TABLES")
 
 for x in mycursor:
   print(x)
+
+
+#Primary Key
+print("\nPrimary Key")
+mycursor.execute("CREATE TABLE customers1 (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255), address VARCHAR(255))")
+print("Table with Primary Key created.")
