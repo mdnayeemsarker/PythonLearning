@@ -10,3 +10,12 @@ f.close()
 f = open("/home/abmn/Desktop/Python/40_file_write_create/demofile.txt", "r")
 print(f.read())
 f.close()
+
+#Overwrite Existing Content
+print("\nOverwrite Existing Content:")
+f = open("/home/abmn/Desktop/Python/40_file_write_create/demofile.txt", "w")
+f.write("Woops! I have deleted the content!")
+f.close()
+f = open("/home/abmn/Desktop/Python/40_file_write_create/demofile.txt", "r")
+print(f.read())
+f.close()
