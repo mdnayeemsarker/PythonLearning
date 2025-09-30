@@ -41,3 +41,8 @@ f.close()
 print("\nRead Only Part of the File another example:")
 with open("/home/abmn/Desktop/Python/39_file_open/demofile.txt") as f:
   print(f.read(5))
+
+#Read Lines
+print("\nRead Lines:")
+with open("/home/abmn/Desktop/Python/39_file_open/demofile.txt") as f:
+  print(f.readline())
