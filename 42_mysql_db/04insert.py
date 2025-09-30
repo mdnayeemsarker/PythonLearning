@@ -28,3 +28,11 @@ val = [
 mycursor.executemany(sql, val)
 mydb.commit()
 print(mycursor.rowcount, "was inserted.")
+
+#Get the ID of the last inserted row
+print("\nGet the ID of the last inserted row")
+sql = "INSERT INTO customers (name, address) VALUES (%s, %s)"
+val = ("Michelle", "Blue Village")
+mycursor.execute(sql, val)
+mydb.commit()
+print("Last inserted ID:", mycursor.lastrowid)
