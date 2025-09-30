@@ -22,3 +22,11 @@ mycursor.execute(sql)
 myresult = mycursor.fetchall()
 for x in myresult:
   print(x)
+
+#RIGHT JOIN
+print("\nRIGHT JOIN")
+sql = "SELECT customers.name AS user, customers1.color AS favorite FROM customers RIGHT JOIN customers1 ON customers.id = customers1.customer_id"
+mycursor.execute(sql)
+myresult = mycursor.fetchall()
+for x in myresult:
+  print(x)
