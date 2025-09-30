@@ -16,3 +16,11 @@ mycursor.execute(sql, adr)
 myresult = mycursor.fetchall()
 for x in myresult:
   print(x)
+
+#Wildcard Characters
+print("\nWildcard Characters")
+sql = "SELECT * FROM customers WHERE address LIKE '%hway%'"
+mycursor.execute(sql)
+myresult = mycursor.fetchall()
+for x in myresult:
+  print(x)
