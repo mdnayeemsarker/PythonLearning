@@ -21,3 +21,9 @@ mycursor.execute("SELECT address FROM customers")
 myresult = mycursor.fetchall()
 for x in myresult:
   print(x)
+
+#Using the fetchone() Method
+print("\nUsing the fetchone() Method")
+mycursor.execute("SELECT address FROM customers")
+myresult = mycursor.fetchone()
+print(myresult)
