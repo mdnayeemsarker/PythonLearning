@@ -12,3 +12,12 @@ z = [1, "hello", 3.14, True]
 print(x)
 print(y)
 print(z)
+
+#List Methods
+print("\nList Methods")
+x = [9, 12, 7, 4, 11]
+# Add element:
+x.append(8)
+# Sort list ascending:
+x.sort()
+print(x)
