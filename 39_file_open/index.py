@@ -36,3 +36,8 @@ f = open("/home/abmn/Desktop/Python/39_file_open/demofile.txt", "r")
 print(f.read(5))
 print(f.read(8))
 f.close()
+
+#Read Only Part of the File another example
+print("\nRead Only Part of the File another example:")
+with open("/home/abmn/Desktop/Python/39_file_open/demofile.txt") as f:
+  print(f.read(5))
