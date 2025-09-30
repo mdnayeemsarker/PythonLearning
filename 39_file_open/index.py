@@ -23,3 +23,9 @@ print(f.read())
 print("\nUsing the with statement:")
 with open("/home/abmn/Desktop/Python/39_file_open/demofile.txt") as f:
   print(f.read())
+
+#Close Files
+print("\nClose Files:")
+f = open("/home/abmn/Desktop/Python/39_file_open/demofile.txt")
+print(f.readline())
+f.close()
