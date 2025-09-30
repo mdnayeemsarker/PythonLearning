@@ -52,3 +52,9 @@ print("\nRead Lines another example:")
 with open("/home/abmn/Desktop/Python/39_file_open/demofile.txt") as f:
   print(f.readlines())
   print(f.readlines())
+
+#By looping through the lines of the file
+print("\nBy looping through the lines of the file:")
+with open("/home/abmn/Desktop/Python/39_file_open/demofile.txt") as f:
+  for x in f:
+    print(x)
