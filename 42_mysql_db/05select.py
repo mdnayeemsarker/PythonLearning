@@ -14,3 +14,10 @@ mycursor.execute("SELECT * FROM customers")
 myresult = mycursor.fetchall()
 for x in myresult:
   print(x)
+
+#Selecting Columns
+print("\nSelecting Columns")
+mycursor.execute("SELECT address FROM customers")
+myresult = mycursor.fetchall()
+for x in myresult:
+  print(x)
