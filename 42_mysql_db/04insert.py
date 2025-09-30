@@ -15,3 +15,16 @@ val = ("John", "Highway 21")
 mycursor.execute(sql, val)
 mydb.commit()
 print(mycursor.rowcount, "record inserted.")
+
+
+#Insert Multiple Rows
+print("\nInsert Multiple Rows")
+sql = "INSERT INTO customers (name, address) VALUES (%s, %s)"
+val = [
+  ('Peter', 'Lowstreet 4'),
+  ('Chuck', 'Main Road 989'),
+  ('Viola', 'Sideway 1633')
+]
+mycursor.executemany(sql, val)
+mydb.commit()
+print(mycursor.rowcount, "was inserted.")
