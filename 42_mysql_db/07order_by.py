@@ -15,3 +15,11 @@ mycursor.execute(sql)
 myresult = mycursor.fetchall()
 for x in myresult:
   print(x)
+
+#ORDER BY DESC
+print("\nORDER BY DESC")
+sql = "SELECT * FROM customers ORDER BY name DESC"
+mycursor.execute(sql)
+myresult = mycursor.fetchall()
+for x in myresult:
+  print(x)
