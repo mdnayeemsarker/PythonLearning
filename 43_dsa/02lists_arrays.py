@@ -21,3 +21,13 @@ x.append(8)
 # Sort list ascending:
 x.sort()
 print(x)
+
+#Create Algorithms
+print("\nCreate Algorithms")
+my_array = [7, 12, 9, 4, 11, 8]
+minVal = my_array[0]
+for i in my_array:
+    print('value:', i)
+    if i < minVal:
+        minVal = i
+print('Lowest value:', minVal)
