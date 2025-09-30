@@ -13,3 +13,8 @@
 print("Opening a file:")
 f = open("demofile.txt", "r")
 print(f.read())
+
+#Open a File from local computer
+print("\nOpening a file from local computer:")
+f = open("/home/abmn/Desktop/Python/39_file_open/demofile.txt", "r")
+print(f.read())
