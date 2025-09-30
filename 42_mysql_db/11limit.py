@@ -14,3 +14,10 @@ mycursor.execute("SELECT * FROM customers LIMIT 15")
 myresult = mycursor.fetchall()
 for x in myresult:
   print(x)
+
+#Start From Another Position
+print("\nStart From Another Position")
+mycursor.execute("SELECT * FROM customers LIMIT 5 OFFSET 5")
+myresult = mycursor.fetchall()
+for x in myresult:
+  print(x)
