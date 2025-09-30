@@ -29,3 +29,10 @@ print("\nClose Files:")
 f = open("/home/abmn/Desktop/Python/39_file_open/demofile.txt")
 print(f.readline())
 f.close()
+
+#Read Only Parts of the File
+print("\nRead Only Parts of the File:")
+f = open("/home/abmn/Desktop/Python/39_file_open/demofile.txt", "r")
+print(f.read(5))
+print(f.read(8))
+f.close()
