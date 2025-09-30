@@ -14,3 +14,11 @@ mycursor.execute("SELECT customers.name, customers1.color, customers1.amount FRO
 myresult = mycursor.fetchall()
 for x in myresult:
   print(x)
+
+# LEFT JOIN
+print("\nLEFT JOIN")
+sql = "SELECT customers.name AS user, customers1.color AS favorite FROM customers LEFT JOIN customers1 ON customers.id = customers1.customer_id"
+mycursor.execute(sql)
+myresult = mycursor.fetchall()
+for x in myresult:
+  print(x)
