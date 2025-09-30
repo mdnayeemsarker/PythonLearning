@@ -23,5 +23,10 @@ for x in mycursor:
 
 #Primary Key
 print("\nPrimary Key")
-mycursor.execute("CREATE TABLE customers1 (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255), address VARCHAR(255))")
+# mycursor.execute("CREATE TABLE customers1 (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255), address VARCHAR(255))")
 print("Table with Primary Key created.")
+
+#Create primary key on an existing table
+print("\nCreate primary key on an existing table")
+mycursor.execute("ALTER TABLE customers ADD COLUMN id INT AUTO_INCREMENT PRIMARY KEY")
+print("Primary Key created on existing table.")
