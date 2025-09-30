@@ -46,3 +46,9 @@ with open("/home/abmn/Desktop/Python/39_file_open/demofile.txt") as f:
 print("\nRead Lines:")
 with open("/home/abmn/Desktop/Python/39_file_open/demofile.txt") as f:
   print(f.readline())
+
+#Read Lines another example
+print("\nRead Lines another example:")
+with open("/home/abmn/Desktop/Python/39_file_open/demofile.txt") as f:
+  print(f.readlines())
+  print(f.readlines())
