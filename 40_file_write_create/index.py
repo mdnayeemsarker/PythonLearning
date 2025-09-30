@@ -19,3 +19,13 @@ f.close()
 f = open("/home/abmn/Desktop/Python/40_file_write_create/demofile.txt", "r")
 print(f.read())
 f.close()
+
+#Create a New File
+print("\nCreate a New File:")
+f = open("/home/abmn/Desktop/Python/40_file_write_create/newfile.txt", "x")
+f = open("/home/abmn/Desktop/Python/40_file_write_create/newfile.txt", "w")
+f.write("Hello! This is a new file.")
+f.close()
+f = open("/home/abmn/Desktop/Python/40_file_write_create/newfile.txt", "r")
+print(f.read())
+f.close()
