@@ -15,3 +15,11 @@ adr = ("Yellow Garden 2", )
 mycursor.execute(sql, adr)
 mydb.commit()
 print(mycursor.rowcount, "record(s) deleted")
+
+#Prevent SQL Injection
+print("\nPrevent SQL Injection")
+sql = "DELETE FROM customers WHERE address = %s"
+adr = ("Mountain 21", )
+mycursor.execute(sql, adr)
+mydb.commit()
+print(mycursor.rowcount, "record(s) deleted")
