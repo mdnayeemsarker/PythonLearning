@@ -9,5 +9,12 @@ mydb = mysql.connector.connect(
   password="abmn@!01"
 )
 mycursor = mydb.cursor()
-mycursor.execute("CREATE DATABASE mydatabase")
+# mycursor.execute("CREATE DATABASE mydatabase")
 print(mydb)
+
+# Check if Database Exists
+print("show databases")
+mycursor.execute("SHOW DATABASES")
+
+for x in mycursor:
+  print(x)
