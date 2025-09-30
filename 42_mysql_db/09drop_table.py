@@ -10,6 +10,12 @@ mydb = mysql.connector.connect(
   database="mydatabase"
 )
 mycursor = mydb.cursor()
-sql = "DROP TABLE customers1"
+# sql = "DROP TABLE customers1"
+# mycursor.execute(sql)
+# print("Table Deleted")
+
+#Drop Only if Exist
+print("\nDrop Only if Exist")
+sql = "DROP TABLE IF EXISTS customers1"
 mycursor.execute(sql)
-print("Table Deleted")
+print("Table Deleted if it existed")
